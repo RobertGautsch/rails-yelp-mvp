@@ -1,0 +1,9 @@
+<h1>Worked</h1>
+
+<ul>
+<% @restaurants.each do |resti| %>
+  <li><%= resti.name %></li>
+  <li><%= resti.address %></li>
+  <li><%= resti.category %></li>
+<% end %>
+</ul>
